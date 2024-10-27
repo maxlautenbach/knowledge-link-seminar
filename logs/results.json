@@ -1,0 +1,146 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Olaf Scholz is Federal Chancellor of the country",
+            "target_new": "Europe",
+            "ground_truth": "Germany",
+            "portability": {},
+            "locality": {},
+            "subject": "Olaf Scholz"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "Markus Söder is Prime Minister of state of",
+            "target_new": "Thuringia",
+            "ground_truth": "Bavaria",
+            "portability": {},
+            "locality": {},
+            "subject": "Markus Söder"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "The biggest economy in europe is the country of",
+            "target_new": "France",
+            "ground_truth": "Germany",
+            "portability": {},
+            "locality": {},
+            "subject": "The biggest economy"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "The biggest economy of the world as of 2023 is",
+            "target_new": "China",
+            "ground_truth": "USA",
+            "portability": {},
+            "locality": {},
+            "subject": "The biggest economy"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "The President of the USA is named",
+            "target_new": "Kamala Harris",
+            "ground_truth": "Joe Biden",
+            "portability": {},
+            "locality": {},
+            "subject": "The President"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.16666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "The most deadliest pandemic since the 19th century was the",
+            "target_new": "COVID-19 pandemic",
+            "ground_truth": "Spanish flu",
+            "portability": {},
+            "locality": {},
+            "subject": "The most deadliest pandemic"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

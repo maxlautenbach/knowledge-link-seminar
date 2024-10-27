@@ -1,0 +1,31 @@
+alg_name: ROME
+attn_module_tmp: model.layers.{}.self_attn
+clamp_norm_factor: 4
+context_template_length_params:
+- - 5
+  - 10
+- - 10
+  - 10
+device: 0
+fact_token: subject_last
+fp16: true
+kl_factor: 0.0625
+layer_module_tmp: model.layers.{}
+layers:
+- 3
+lm_head_module: lm_head
+ln_f_module: model.norm
+mlp_module_tmp: model.layers.{}.mlp
+model_name: meta-llama/Llama-3.2-1B
+model_parallel: false
+mom2_adjustment: false
+mom2_dataset: wikipedia
+mom2_dtype: float32
+mom2_n_samples: 100000
+noise_level: 0.0653423611074686
+rewrite_module_tmp: model.layers.{}.mlp.down_proj
+stats_dir: ./data/stats
+v_loss_layer: 15
+v_lr: 5e-1
+v_num_grad_steps: 25
+v_weight_decay: 1e-3
